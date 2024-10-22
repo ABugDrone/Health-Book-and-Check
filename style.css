@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ffffff, #e0f7fa);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2E7D32;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+.flash-images {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.flash-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.appointment-form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #2E7D32;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}

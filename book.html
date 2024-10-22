@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book an Appointment - Health Check and Book</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/Monkey_pox.gif" alt="Health Check Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="book.html">Book an Appointment</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="appointment-form">
+            <h1>Book an Appointment</h1>
+            <form id="appointmentForm">
+                <label for="name">Name of Patient</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="address">Residential Address</label>
+                <input type="text" id="address" name="address" required>
+
+                <label for="phone">Phone Number (WhatsApp preferred)</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="occupation">Occupation</label>
+                <select id="occupation" name="occupation">
+                    <option value="Civil Servant">Civil Servant</option>
+                    <option value="Private Employee">Private Employee</option>
+                    <option value="Business">Business or Trade</option>
+                    <option value="Service Provider">Service Provider</option>
+                    <option value="Student">Student</option>
+                    <option value="Unemployed">Unemployed</option>
+                </select>
+
+                <label for="appointmentType">Appointment Type</label>
+                <select id="appointmentType" name="appointmentType">
+                    <option value="Emergency">Emergency</option>
+                    <option value="Doctor's appointment">Doctor's appointment</option>
+                    <option value="Lab-Test">Lab-Test</option>
+                </select>
+
+                <label for="symptoms">Describe signs, feelings, and symptoms</label>
+                <textarea id="symptoms" name="symptoms" required minlength="50"></textarea>
+
+                <label for="medication">Current or last medication(s)</label>
+                <input type="text" id="medication" name="medication">
+
+                <label for="otherInfo">Other useful information</label>
+                <textarea id="otherInfo" name="otherInfo" required minlength="50"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Health Check and Book. All rights reserved.</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>

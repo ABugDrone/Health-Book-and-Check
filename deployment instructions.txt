@@ -1,0 +1,5 @@
+6. Deploy to Netlify
+Push your repository to GitHub.
+Connect the repository to Netlify.
+Configure the Netlify settings for serverless functions 
+(you may need to ensure that the server/netlify/functions/submitAppointment.js is configured correctly in Netlify).
